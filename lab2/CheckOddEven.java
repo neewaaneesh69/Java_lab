@@ -1,5 +1,4 @@
 package lab2;
-import.scanner
 public class CheckOddEven {
     public static void main(String[] args) {
         int num = 8;
