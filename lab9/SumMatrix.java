@@ -11,14 +11,14 @@ public class SumMatrix {
         int[][] matrix2 = new int [row] [col];
         int[][] sum = new int [row] [col];
 
-        System.out.println("Enter first matrix elemsnts:");
+        System.out.println("Enter first matrix elements:");
         for(int i=0; i<row; i++){
             for(int j=0; j<col; j++){
             System.out.print("Enter["+(i+1)+(j+1)+"]:");
-            matrix2[i][j] = input.nextInt();
+            matrix1[i][j] = input.nextInt();
             }
         }
-        System.out.println("Enter second matrix elemsnts:");
+        System.out.println("Enter second matrix elements:");
         for(int i=0; i<row; i++){
             for(int j=0; j<col; j++){
             System.out.print("Enter["+(i+1)+(j+1)+"]:");
