@@ -9,7 +9,7 @@ public class Sorting {
         int size = input.nextInt();
         int[] array = new int [size];
         
-        System.out.println("enter"+size+"elements");
+        System.out.println("enter "+size+" elements:");
         for(int i=0; i<array.length; i++){
             array[i]= input.nextInt();
         }

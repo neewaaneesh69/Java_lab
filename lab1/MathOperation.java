@@ -6,9 +6,9 @@ public class MathOperation {
     public static void main(String[] args)
     {
     Scanner input = new Scanner(System.in);
-    System.out.println("Enter first positive number: " );
+    System.out.print("Enter first positive number: " );
     int num1 = input.nextInt(); 
-    System.out.println("Enter Second Positive number: " );
+    System.out.print("Enter Second Positive number: " );
     int num2 = input.nextInt();
      
     int sum = num1 + num2;
